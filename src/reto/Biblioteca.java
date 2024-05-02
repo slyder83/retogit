@@ -1,13 +1,17 @@
+package reto;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class Biblioteca {
     // Lista para almacenar los libros
     private List<Libro> libros;
+    private int numeroLibros;
 
     // Constructor
     public Biblioteca() {
         this.libros = new ArrayList<>();
+        this.numeroLibros = 0;
     }
 
     // Método para agregar un libro a la biblioteca
